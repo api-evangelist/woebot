@@ -1,0 +1,88 @@
+aid: woebot
+url: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/apis.yml
+name: Woebot Health
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Mental Health
+  - Digital Therapeutics
+  - CBT
+  - Chatbot
+  - Clinical
+  - Healthcare
+  - B2B
+  - Enterprise
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  Woebot Health is a clinical mental health company founded in 2017 by Dr. Alison Darcy that
+  delivers an AI-powered, CBT-based conversational agent ("Woebot") for evidence-based
+  mental health support. The company operates an enterprise (B2B) model, partnering with
+  health systems, payers, employers, and providers to embed Woebot into existing care
+  pathways and digital front doors. The Woebot Health Platform offers a partner API library
+  for transmitting aggregated, validated patient-reported outcomes (PHQ-8/PHQ-9, engagement,
+  satisfaction, topic modeling) into EMRs and value-based care workflows. The partner API
+  is gated to enterprise customers — there is no public REST API, OpenAPI specification, or
+  self-serve developer portal.
+apis:
+  - aid: woebot:partner-api
+    name: Woebot Health Partner API
+    description: >-
+      Gated partner API library for integrating the Woebot Health Platform into a partner's
+      digital front door, EMR, or care pathway. Supports transmission of aggregated data
+      including patient-reported outcomes (PHQ-8, PHQ-9), engagement metrics, satisfaction
+      measures, and topic modeling that identifies user concerns. Available to enterprise
+      partners (health systems, payers, providers, employers) under contract — no public
+      documentation or self-serve onboarding.
+    humanURL: https://woebothealth.com/solution/
+    baseURL: https://woebothealth.com/solution/
+    tags:
+      - Partner API
+      - Clinical
+      - PRO
+      - EMR Integration
+      - Gated
+    properties:
+      - type: Documentation
+        url: https://woebothealth.com/solution/
+      - type: ProductBrief
+        url: https://woebothealth.com/img/2024/03/Woebot-Overview_March-2024.pdf
+common:
+  - type: Website
+    url: https://woebothealth.com
+  - type: Solution
+    url: https://woebothealth.com/solution/
+  - type: Research
+    url: https://woebothealth.com/research/
+  - type: ClinicalEvidence
+    url: https://woebothealth.com/clinical-evidence/
+  - type: ForProviders
+    url: https://woebothealth.com/providers/
+  - type: ForPayers
+    url: https://woebothealth.com/payers/
+  - type: ForEmployers
+    url: https://woebothealth.com/employers/
+  - type: About
+    url: https://woebothealth.com/about/
+  - type: Newsroom
+    url: https://woebothealth.com/newsroom/
+  - type: Blog
+    url: https://woebothealth.com/blog/
+  - type: Careers
+    url: https://woebothealth.com/careers/
+  - type: TrustCenter
+    url: https://woebothealth.com/trust/
+  - type: PrivacyPolicy
+    url: https://woebothealth.com/privacy-policy/
+  - type: TermsOfService
+    url: https://woebothealth.com/terms-of-service/
+  - type: Contact
+    url: https://woebothealth.com/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/woebothealth
+  - type: Twitter
+    url: https://x.com/woebothealth
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
