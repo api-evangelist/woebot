@@ -2,10 +2,17 @@
   "repo": "woebot",
   "feeds": [
     {
+      "source": "https://woebothealth.com/blog/",
+      "feed_url": "https://woebothealth.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://woebothealth.com/newsroom/",
       "error": "HTTPError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-01T23:35:02Z"
+  "fetched": "2026-06-14T20:42:17Z"
 }
