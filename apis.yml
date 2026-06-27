@@ -51,7 +51,7 @@ apis:
 common:
   - type: Website
     url: https://woebothealth.com
-  - type: Solution
+  - type: Solutions
     url: https://woebothealth.com/solution/
   - type: Research
     url: https://woebothealth.com/research/
