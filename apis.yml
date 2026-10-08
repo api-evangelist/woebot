@@ -81,6 +81,12 @@ apis:
       - type: ProductBrief
         url: https://woebothealth.com/img/2024/03/Woebot-Overview_March-2024.pdf
 common:
+  - type: Plans
+    url: plans/woebot-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/woebot-rate-limits.yml
+  - type: FinOps
+    url: finops/woebot-finops.yml
   - type: TrustCenter
     url: security/woebot-trust-center.yml
   - type: VulnerabilityDisclosure
